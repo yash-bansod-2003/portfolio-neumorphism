@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="
+https://cdn.jsdelivr.net/npm/@coreui/icons@3.0.1/css/all.min.css
+" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Yash Bansod | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+
+        <div class="logo">
+          <a href="#"><span>P</span>ort<span>F</span>olio</a>
+        </div>
+
+        <ul class="nav-social-links">
+          <li data-aos="fade-down">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li data-aos="fade-down">
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li data-aos="fade-down">
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li data-aos="fade-down">
+            <a href="https://github.com/yash-bansod-2003">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li data-aos="fade-down">
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+
+        <u class="nav-links">
+          <li>
+            <a data-scroll href="#">Hero</a>
+          </li>
+          <li>
+            <a data-scroll href="#section-education">education</a>
+          </li>
+          <li>
+            <a data-scroll href="#section-skills">skills</a>
+          </li>
+          <li>
+            <a data-scroll href="#">projects</a>
+          </li>
+          <li>
+            <a data-scroll href="#">about</a>
+          </li>
+          <li>
+            <a data-scroll href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero" id="section-hero">
+        <div class="section-hero-info">
+          <h1 data-aos="fade-up">
+            <span>Y</span>ash <span>B</span>ansod
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="200">Creative <span id="skills"></span></p>
+
+          <div class="hero-actions">
+            <button>hire</button>
+            <button>download cv</button>
+          </div>
+        </div>
+        <div class="section-hero-game">
+          <canvas id="hero-game" data-aos="fade-left"></canvas>
+          <img src="/ball.png" alt="ball" id="ball">
+        </div>
+      </section>
+
+      <section id="section-education">
+        <h2 class="title"><span>E</span>du<span>C</span>ation</h2>
+        <div class="container">
+          <div class="section-education-info">
+            <!-- dynamic education card  -->
+          </div>
+          <!-- <div class="section-education-result"></div> -->
+        </div>
+      </section>
+
+      <section id="section-skills">
+        <h2 class="title"><span>S</span>ki<span>L</span>Ls</h2>
+        <div class="container" id="skill-card-container">
+          <!-- dynamic card using js  -->
+        </div>
+      </section>
+
+    </main>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@coreui/icons@3.0.1/dist/cjs/index.min.js"></script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
