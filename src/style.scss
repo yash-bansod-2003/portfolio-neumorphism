@@ -1,4 +1,3 @@
-
 $height-header : 14vh;
 $background: #E0E5EC;
 $dark-shadow: #A3B1C6;
@@ -14,7 +13,9 @@ $font : #1F2633;
 // $orange : #E84F2C;
 // $font : #E0E5EC;
 
-
+html,body{
+  overflow-x: hidden;
+}
 
 * {
   margin: 0;
@@ -26,7 +27,7 @@ $font : #1F2633;
 
 body {
   min-height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   background: $background;
   overflow-x: hidden;
 }
@@ -401,6 +402,12 @@ main {
 
 
 @media screen and (max-width : 600px) {
+
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
 
   header {
 
